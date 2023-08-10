@@ -1,4 +1,4 @@
-## Tty rotate settings
+## Tty screen rotate settings
 armbian-config or /boot/armbianEnv.txt
 ```
 extraargs=fbcon=rotate:3
