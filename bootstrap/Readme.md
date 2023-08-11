@@ -71,3 +71,9 @@ if [ -z "${SSH_TTY}" ]; then
     startx 
 fi
 ```
+
+```
+sudo systemctl start rc-local.service
+
+echo 0 >/sys/class/leds/status/brightness
+```
